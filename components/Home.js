@@ -16,7 +16,7 @@ function Home() {
     .then(data => {
       setMoviesData(data.movies)
     })
-  },[])
+  },[]) 
 
   // Liked movies (inverse data flow)
   const updateLikedMovies = (movieTitle) => {
