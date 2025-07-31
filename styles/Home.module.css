@@ -1,4 +1,4 @@
-/* .main {
+.main {
 	width: 100vw;
 	min-height: 100vh;
 	margin: 0;
@@ -24,7 +24,7 @@
 .logocontainer {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	/* align-items: center; */
 }
 
 .logo {
@@ -73,4 +73,4 @@
 
 .crossIcon {
 	cursor: pointer;
-} */
+}
